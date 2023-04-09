@@ -11,11 +11,11 @@
 				"${workspaceFolder}\\*.cpp",
 				"-o",
 				"${workspaceFolder}\\test.exe",
-				"-IE:\\programming\\SFML-2.5.1\\include\\",
-				"-LE:\\programming\\SFML-2.5.1\\lib\\",				
-				"-lsfml-graphics",
-				"-lsfml-system",
-				"-lsfml-window"
+				"-IE:\\programming\\wxWidgets\\include\\",
+				"-LE:\\programming\\wxWidgets\\lib\\gcc1220_x64_dll",
+				"-IE:\\programming\\wxWidgets\\lib\\gcc1220_x64_dll\\mswu\\",				
+				"-lwxmsw32u_core",
+				"-lwxbase32u"
 			],
 			"options": {
 				"cwd": "${fileDirname}"

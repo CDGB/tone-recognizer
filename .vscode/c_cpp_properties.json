@@ -4,7 +4,8 @@
             "name": "Win32",
             "includePath": [
                 "${workspaceFolder}/**",
-                "E:\\programming\\SFML-2.5.1\\include"
+                "E:\\programming\\wxWidgets\\include",
+                "E:\\programming\\wxWidgets\\lib\\gcc1220_x64_dll\\mswu\\"
             ],
             "defines": [
                 "_DEBUG",
